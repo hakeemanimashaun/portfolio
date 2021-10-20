@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hakeem Animashaun portfolio Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body id ="home">
+ <header> 
+        <div class="logo">
+               <img src="imges/logo.png" alt="">
+        </div>
+        <button class ="nav-toggle" aria-label="toggle-navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">Portfolio</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+</header>
+
+    <!-- introduction starts here-->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Hakeem Animashaun</strong> 
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Software Developer and Agile Leader </p>
+        <img src="imges/IMG_1020.png" alt="a picture of Hakeem Animashaun">    
+    </section>
+    <!--this section describes my services-->
+    <section class="myservices" id="services">
+       <h2 class="section__title section__title--services">What I Do?</h2>
+       <div class="services"><!--open serivices description-->
+           <div class="service">
+               <h3>Andriod App Developement</h3>
+               <p>
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                   Temporibus, minima omnis voluptate, consequuntur dolorem odit cum impedit 
+                   laboriosam provident incidunt saepe exercitationem ut 
+                   sunt iure similique reiciendis unde quam animi.
+               </p>
+           </div>
+           <div class="service">
+               <h3>Frontend and Backend</h3>
+               <p>
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                   Ratione est, soluta id illum eum dolorum delectus eaque labore cumque provident fuga nam, 
+                   sequi possimus numquam dignissimos, nemo error. Omnis, eum!
+               </p>
+           </div>
+           <div class="service">
+               <h3>User Interface and User Experience</h3>
+               <p>
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                   Repellendus at dolores obcaecati, molestiae, 
+                   recusandae voluptates explicabo ipsum quos expedita beatae praesentium, 
+                   accusamus provident tempora libero incidunt. Nam quam necessitatibus incidunt!
+               </p>
+           </div> <!--close services description-->
+       </div>
+       <a href="#" class="btn">My work sample</a>
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am?</h2>
+        <p class="section__subtitle section__subtitle--about">A software developer based in Lagos</p>
+        
+        <div class="about-me__body">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Itaque magni laboriosam commodi voluptatum dicta! Error, officia distinctio. 
+                Repudiandae provident dolor id natus, iste dolorem repellat incidunt, 
+                inventore totam molestiae accusantium?
+            </p>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Iste quo itaque error libero provident, rem, optio non voluptate fugit maxime magni, 
+                ratione saepe. Illum, nihil numquam expedita inventore doloribus unde.
+            </p>
+        </div>
+        <img src="imges/IMG_2433.png" alt="another image of Hakeem Animashaun" class="about-me__img">
+
+    </section>
+    <!--this section showcases my work-->
+    <section class="my-work" id="work">
+        <h2 class="section__title">Portfolio</h2>
+        <p class="section__subtitlte">A selection of my range of work</p>
+        <div class="portfolio">
+            <!--portfolio item-->
+            <a href="#" class="portfolio__item">
+                <img src="imges/portitem1.jpeg" alt="" class="portfolio__img">
+            </a>
+            <!--portfolio item-->
+            <a href="#" class="portfolio__item">
+                <img src="imges/portitem3.jpeg" alt="" class="portfolio__img">
+            </a>
+            <!--portfolio item-->
+            <a href="#" class="portfolio__item">
+                <img src="imges/portitem2.jpeg" alt="" class="portfolio__img">
+            </a>
+            <!--portfolio item-->
+            <a href="#" class="portfolio__item">
+                <img src="imges/portitem1.jpeg" alt="" class="portfolio__img">
+            </a>
+            <!--portfolio item-->
+            <a href="#" class="portfolio__item">
+                <img src="imges/portitem2.jpeg" alt="" class="portfolio__img">
+            </a>
+            <!--portfolio item-->
+            <a href="#" class="portfolio__item">
+                <img src="imges/portitem3.jpeg" alt="" class="portfolio__img">
+            </a>
+            <!--portfolio item-->
+            <a href="#" class="portfolio__item">
+                <img src="imges/portitem1.jpeg" alt="" class="portfolio__img">
+            </a>
+
+        </div>
+
+    </section> 
+
+    <!-- Contact us form -->
+    <section id="contact" class="contact-us">
+        <h2>
+            How Can We Help You?
+        </h2>
+        <div class="form-container">
+            <div class="form-box">
+                <form>
+                    <div class="form-group">
+                        <label for="first-name">First Name</label>
+                        <input type="text" placeholder="Enter Your First Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" placeholder="Enter Your First Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="Enter Your Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea rows="7" placeholder="Message"></textarea>
+                    </div>
+                    <input type="submit" value="Send Message" class="send-btn">
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- end-->
+
+    <!-- FOOTER STARTS  -->
+    <footer class="footer">
+        <a href="mailto:hakeemanimashaunsnr@gmail.com">hakeemanimashaunsnr@gmail.com</a>
+        <!--
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com">
+                    <i class="fab fa-github"></i>
+                </a></li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://linkedin.com">
+                    <i class="fab fa-linkedin"></i>
+                </a></li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://instagram.com">
+                    <i class="fab fa-instagram"></i>
+                </a></li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com">
+                        <i class="fab fa-twitter"></i>
+                    </a></li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://facebook.com">
+                        <i class="fab fa-facebook"></i>
+                    </a></li>
+        </ul>
+    -->
+    </footer>
+    <!-- FOOTER ENDS -->
+
+    <script src="js/index.js"></script>
+</body>
+</html>
